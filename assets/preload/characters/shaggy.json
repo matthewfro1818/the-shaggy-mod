@@ -2,151 +2,64 @@
 	"animations": [
 		{
 			"offsets": [
-				165,
-				-114
+				0,
+				-10
 			],
 			"loop": false,
-			"anim": "singLEFT",
-			"fps": 30,
-			"name": "shaggy_left",
-			"indices": []
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ShaggyIdle"
 		},
 		{
 			"offsets": [
-				-10,
-				-160
+				20,
+				-240
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 30,
-			"name": "shaggy_down",
-			"indices": []
+			"indices": [],
+			"name": "ShaggyDown"
 		},
 		{
 			"offsets": [
-				-16,
-				27
+				-26,
+				97
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 30,
-			"name": "shaggy_up",
-			"indices": []
+			"indices": [],
+			"name": "ShaggyUp"
 		},
 		{
 			"offsets": [
-				-1,
+				29,
 				-38
 			],
 			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 30,
-			"name": "shaggy_right",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"anim": "idle",
-			"fps": 30,
-			"name": "shaggy_idle0",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 30,
-			"anim": "idle2",
-			"name": "shaggy_idle2"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"anim": "idle_s",
-			"fps": 30,
-			"name": "shaggy_super_idle0",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"anim": "powerup",
 			"fps": 24,
-			"name": "shaggy_powerup",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ShaggyRight"
 		},
 		{
 			"offsets": [
-				140,
-				90
+				155,
+				-64
 			],
 			"loop": false,
-			"anim": "catch",
-			"fps": 30,
-			"name": "shaggy_catch",
-			"indices": []
-		},
-		{
-			"offsets": [
-				90,
-				100
-			],
-			"loop": false,
-			"anim": "hold",
-			"fps": 30,
-			"name": "shaggy_hold",
-			"indices": []
-		},
-		{
-			"offsets": [
-				90,
-				0
-			],
-			"loop": false,
-			"anim": "h_half",
-			"fps": 30,
-			"name": "shaggy_h_half",
-			"indices": []
-		},
-		{
-			"offsets": [
-				130,
-				0
-			],
-			"loop": false,
-			"anim": "fall",
-			"fps": 30,
-			"name": "shaggy_fall",
-			"indices": []
-		},
-		{
-			"offsets": [
-				110,
-				-123
-			],
-			"loop": false,
-			"anim": "kneel",
-			"fps": 30,
-			"name": "shaggy_half_ground",
-			"indices": []
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ShaggyLeft"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/shaggy",
+	"image": "characters/Editorsshaggy",
 	"position": [
-		0,
+		170,
 		0
 	],
 	"healthicon": "shaggy",
@@ -157,8 +70,8 @@
 		74
 	],
 	"camera_position": [
-		-280,
-		50
+		10,
+		130
 	],
 	"sing_duration": 6.1,
 	"scale": 1
