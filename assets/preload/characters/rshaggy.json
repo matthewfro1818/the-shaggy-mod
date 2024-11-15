@@ -2,96 +2,64 @@
 	"animations": [
 		{
 			"offsets": [
-				165,
-				-114
-			],
-			"loop": false,
-			"anim": "singLEFT",
-			"fps": 30,
-			"name": "shaggy_left",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-10,
-				-160
-			],
-			"loop": false,
-			"anim": "singDOWN",
-			"fps": 30,
-			"name": "shaggy_down",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-16,
-				27
-			],
-			"loop": false,
-			"anim": "singUP",
-			"fps": 30,
-			"name": "shaggy_up",
-			"indices": []
-		},
-		{
-			"offsets": [
-				-1,
-				-43
-			],
-			"loop": false,
-			"anim": "singRIGHT",
-			"fps": 30,
-			"name": "shaggy_right",
-			"indices": []
-		},
-		{
-			"offsets": [
 				0,
-				0
+				-10
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "idle",
-			"fps": 30,
-			"name": "shaggy_idle0",
-			"indices": []
+			"indices": [],
+			"name": "ShaggyIdle"
 		},
 		{
 			"offsets": [
-				-1,
-				0
+				20,
+				-240
 			],
 			"loop": false,
-			"fps": 30,
-			"anim": "idle2",
-			"name": "shaggy_idle2"
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ShaggyDown"
 		},
 		{
 			"offsets": [
-				33,
-				0
+				-26,
+				97
 			],
 			"loop": false,
-			"anim": "standUP",
-			"fps": 30,
-			"name": "shaggy_stand0",
-			"indices": []
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "ShaggyUp"
 		},
 		{
 			"offsets": [
 				29,
-				-218
+				-38
 			],
 			"loop": false,
-			"anim": "sit",
-			"fps": 30,
-			"name": "shaggy_sit0",
-			"indices": []
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "ShaggyRight"
+		},
+		{
+			"offsets": [
+				155,
+				-64
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "ShaggyLeft"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/shaggy_red",
+	"image": "characters/EditorsshaggyRed",
 	"position": [
-		0,
+		170,
 		0
 	],
 	"healthicon": "rshaggy",
@@ -102,8 +70,8 @@
 		26
 	],
 	"camera_position": [
-		-30,
-		50
+		10,
+		130
 	],
 	"sing_duration": 6.1,
 	"scale": 1
